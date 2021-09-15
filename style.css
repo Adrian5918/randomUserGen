@@ -7,6 +7,7 @@
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #c9c9c9;
 }
 
 #app {
@@ -59,4 +60,17 @@ button:focus {
 
 button:hover {
   transform: scale(0.98);
+}
+
+#H {
+  text-shadow: 1px 3px rgba(163, 163, 163, 0.5);
+  font-size: 30px;
+  font-family: sans-serif;
+  border: solid 3px;
+  color: aliceblue;
+  background-color: blue;
+  width: 300px;
+  border-radius: 4px 16px 4px 16px;
+  padding: 10px;
+  margin-bottom: 100px;
 }
